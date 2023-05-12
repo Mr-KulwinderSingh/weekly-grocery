@@ -1,0 +1,46 @@
+body {
+
+    background-color: rgb(172, 186, 254);
+    padding: 50px;
+    overflow: hidden;
+}
+
+.main-heading {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.list-area {
+
+    height: 60%;
+    width: 55%;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.add-btn, .total-btn, .remove-btn {
+    height: 50px;
+    width: 70px;
+    background: linear-gradient(white, rgb(239, 171, 171));
+    border: 1px solid white;
+    text-align: center;
+
+    margin: 10px;
+
+    
+    border-radius: 5px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+  
+}
