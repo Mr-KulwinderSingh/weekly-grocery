@@ -1,6 +1,6 @@
 body {
 
-    background-color: rgb(172, 186, 254);
+    background-color: rgb(152, 251, 208);
     padding: 50px;
     overflow: hidden;
 }
@@ -19,20 +19,22 @@ body {
     width: 55%;
     border: 1px solid black;
     border-radius: 20px;
-    color: aliceblue;
+    color:rgb(7, 6, 6);
     font-size: 100%;
 
     align-items: center;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+
+    padding-bottom: 200px;
 }
 
 .add-btn, .total-btn, .remove-btn {
     height: 50px;
     width: 70px;
-    background: linear-gradient(white, rgb(239, 171, 171));
-    border: 1px solid white;
+    background: linear-gradient(white, rgb(237, 53, 53));
+    border: 1px solid rgb(7, 6, 6);
     text-align: center;
 
     margin: 10px;
@@ -42,5 +44,7 @@ body {
     align-items: center;
     display: inline;
     justify-content: center;
+
+    
   
 }
